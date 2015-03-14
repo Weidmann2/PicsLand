@@ -19,6 +19,7 @@ public class Picture extends Model{
 	public void setInfos(String i){
 		this.infos = i;
 		setChanged();
+		//notify
 		notifyObservers(this);
 	}
 	public String getInfos(){
