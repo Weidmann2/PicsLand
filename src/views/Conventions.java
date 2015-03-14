@@ -1,0 +1,1 @@
+public enum Conventions {MOSAIQUE,DIRECTORY,KEYWORDS,LANGUAGE}
